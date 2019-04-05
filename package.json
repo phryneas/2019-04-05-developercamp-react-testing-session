@@ -9,6 +9,13 @@
     "react-dom": "^16.8.6"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1"
   }
 }
